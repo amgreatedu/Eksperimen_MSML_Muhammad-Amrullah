@@ -63,31 +63,30 @@ git clone [https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.gi
 cd Eksperimen_MSML_Muhammad-Amrullah
 
 **2. Instalasi Dependensi**
-
 ```bash
 cd Membangun_model
 pip install -r requirements.txt
+
 
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
 ```bash
 mlflow ui
 Akses UI di http://localhost:5000
 
-**4. Menjalankan API Model Serving & Prometheus Exporter**
 
+**4. Menjalankan API Model Serving & Prometheus Exporter**
 ```bash
 cd "../Monitoring dan Logging"
 python 3.prometheus_exporter.py
 API akan berjalan di http://localhost:8000. Metrik dapat diakses di http://localhost:8000/metrics.
 
+
 **5. Simulasi Trafik (Inference)**
 Buka terminal baru dan jalankan skrip berikut agar grafik di Grafana bergerak:
-
 ```bash
 python 7.inference.py
 
 **6. Menjalankan Prometheus & Grafana**
-
 Jalankan file executable prometheus menggunakan konfigurasi 2.prometheus.yml.
 
 Buka Grafana di http://localhost:3000, tambahkan Data Source Prometheus, dan impor/buat Dashboard pemantauan.
