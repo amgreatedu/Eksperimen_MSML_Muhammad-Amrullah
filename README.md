@@ -68,11 +68,13 @@ Pastikan Anda telah menginstal:
     pip install -r requirements.txt
 
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
+ 
     mlflow ui
 
 _Akses UI di http://localhost:5000_
 
 **4. Menjalankan API Model Serving & Prometheus Exporter**
+
     cd "../Monitoring dan Logging"
     python 3.prometheus_exporter.py
 
