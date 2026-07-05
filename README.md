@@ -58,9 +58,9 @@ Pastikan Anda telah menginstal:
 ### Langkah-Langkah
 
 **1. Clone Repositori**
-```bash
-git clone [https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git](https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git)
-cd Eksperimen_MSML_Muhammad-Amrullah
+    ```bash
+    git clone [https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git](https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git)
+    cd Eksperimen_MSML_Muhammad-Amrullah
 
 **2. Instalasi Dependensi**
     ```bash
