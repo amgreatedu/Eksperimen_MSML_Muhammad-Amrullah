@@ -8,9 +8,9 @@ Proyek ini disusun untuk memenuhi kriteria kelulusan (Advanced) pada program Dic
 
 Proyek ini dibagi menjadi beberapa modul utama sesuai dengan tahapan MLOps:
 
-    ```text
-    Membangun_model/
-    dataset_preprocessing.py   # Skrip prapemrosesan data
+
+    ├──Membangun_model/
+    │   ├──dataset_preprocessing.py   # Skrip prapemrosesan data
     │   ├── modelling.py               # Skrip pelatihan model dasar
     │   ├── modelling_tuning.py        # Skrip hyperparameter tuning (Advanced)
     │   ├── requirements.txt           # Dependensi library Python
