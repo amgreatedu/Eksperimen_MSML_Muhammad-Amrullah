@@ -63,9 +63,9 @@ git clone [https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.gi
 cd Eksperimen_MSML_Muhammad-Amrullah
 
 **2. Instalasi Dependensi**
-```bash
-cd Membangun_model
-pip install -r requirements.txt
+    ```bash
+    cd Membangun_model
+    pip install -r requirements.txt
 
 
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
