@@ -50,6 +50,6 @@ jobs:
           
       - name: Build and Push Docker Image using MLflow
         run: |
-          cd Workflow-CI/mlproject
+          cd Workflow-CI
           mlflow models build-docker -m saved_model -n ${{ secrets.DOCKER_USERNAME }}/credit-scoring-model:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/credit-scoring-model:latest
