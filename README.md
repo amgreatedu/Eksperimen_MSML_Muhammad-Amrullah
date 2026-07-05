@@ -69,7 +69,8 @@ Pastikan Anda telah menginstal:
 
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
     mlflow ui
-    _Akses UI di http://localhost:5000_
+
+_Akses UI di http://localhost:5000_
 
 **4. Menjalankan API Model Serving & Prometheus Exporter**
     cd "../Monitoring dan Logging"
@@ -79,13 +80,13 @@ _API akan berjalan di `http://localhost:8000`. Metrik dapat diakses di `http://l
 
 **5. Simulasi Trafik (Inference)**
 Buka terminal baru dan jalankan skrip berikut agar grafik di Grafana bergerak:
-```bash
-python 7.inference.py
+
+    python 7.inference.py
 
 **6. Menjalankan Prometheus & Grafana**
-Jalankan file executable prometheus menggunakan konfigurasi 2.prometheus.yml.
+Jalankan file executable `prometheus` menggunakan konfigurasi `2.prometheus.yml`.
 
-Buka Grafana di http://localhost:3000, tambahkan Data Source Prometheus, dan impor/buat Dashboard pemantauan.
+Buka Grafana di `http://localhost:3000`, tambahkan Data Source Prometheus, dan impor/buat Dashboard pemantauan.
 
 👤 Penulis
 **Muhammad Amrullah**
