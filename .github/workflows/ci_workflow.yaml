@@ -30,7 +30,7 @@ jobs:
           mlflow run . --env-manager=local
 
       - name: Upload Artifact (Model) to GitHub
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: trained-model-artifact
           path: Workflow-CI/MLProject/saved_model/
