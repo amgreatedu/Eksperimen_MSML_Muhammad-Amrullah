@@ -59,22 +59,17 @@ Pastikan Anda telah menginstal:
 
 **1. Clone Repositori**
     
-    ```
     git clone [https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git](https://github.com/username-anda/Eksperimen_MSML_Muhammad-Amrullah.git)
     cd Eksperimen_MSML_Muhammad-Amrullah
-    ```
-
+    
 **2. Instalasi Dependensi**
    
-    ```bash
     cd Membangun_model
     pip install -r requirements.txt
 
-
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
-```bash
-mlflow ui
-Akses UI di http://localhost:5000
+    mlflow ui
+    Akses UI di http://localhost:5000
 
 
 **4. Menjalankan API Model Serving & Prometheus Exporter**
