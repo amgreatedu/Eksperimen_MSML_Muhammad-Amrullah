@@ -24,6 +24,8 @@ Proyek ini dibagi menjadi beberapa modul utama sesuai dengan tahapan MLOps:
 ├── .github/workflows/
 │   └── ci_workflow.yaml           # Konfigurasi GitHub Actions untuk CI/CD
 └── README.md                      # Dokumentasi proyek
+
+
 🛠️ Fitur & Kriteria Proyek
 1. Eksperimen Model (Model Experimentation)
 Melakukan pembersihan data, feature engineering, dan prapemrosesan dataset Credit Scoring.
