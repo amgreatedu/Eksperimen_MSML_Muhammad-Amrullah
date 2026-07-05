@@ -69,15 +69,13 @@ Pastikan Anda telah menginstal:
 
 **3. Menjalankan MLflow (Opsional untuk melihat hasil eksperimen lokal)**
     mlflow ui
-    Akses UI di http://localhost:5000
-
+    _Akses UI di http://localhost:5000_
 
 **4. Menjalankan API Model Serving & Prometheus Exporter**
-```bash
-cd "../Monitoring dan Logging"
-python 3.prometheus_exporter.py
-API akan berjalan di http://localhost:8000. Metrik dapat diakses di http://localhost:8000/metrics.
+    cd "../Monitoring dan Logging"
+    python 3.prometheus_exporter.py
 
+_API akan berjalan di `http://localhost:8000`. Metrik dapat diakses di `http://localhost:8000/metrics`._
 
 **5. Simulasi Trafik (Inference)**
 Buka terminal baru dan jalankan skrip berikut agar grafik di Grafana bergerak:
