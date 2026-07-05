@@ -1,0 +1,38 @@
+artifact_path: file:C:/Users/User/Documents/GitHub/Eksperimen_MSML_Muhammad-Amrullah/Membangun_model/mlruns/0/models/m-aade16aa060c43919d3e3a3547012f7b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-aade16aa060c43919d3e3a3547012f7b
+model_size_bytes: 33072463
+model_uuid: m-aade16aa060c43919d3e3a3547012f7b
+prompts: null
+run_id: 2fb6e36496aa407c8b01722ea4d844ce
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "long",
+    "name": "Gender", "required": true}, {"type": "long", "name": "Education", "required":
+    true}, {"type": "double", "name": "Income", "required": true}, {"type": "double",
+    "name": "Debt", "required": true}, {"type": "double", "name": "Credit_Score",
+    "required": true}, {"type": "double", "name": "Loan_Amount", "required": true},
+    {"type": "double", "name": "Loan_Term", "required": true}, {"type": "double",
+    "name": "Num_Credit_Cards", "required": true}, {"type": "long", "name": "Payment_History",
+    "required": true}, {"type": "long", "name": "Employment_Status", "required": true},
+    {"type": "long", "name": "Residence_Type", "required": true}, {"type": "long",
+    "name": "Marital_Status", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-05 14:41:41.188439'
