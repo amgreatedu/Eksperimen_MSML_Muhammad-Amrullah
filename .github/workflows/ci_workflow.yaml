@@ -1,10 +1,11 @@
 name: CI Workflow MLflow & Docker
 
-on:
+    on:
   push:
     paths:
       - 'Workflow-CI/**'
     branches: [ main ]
+  workflow_dispatch:  # <--- Tambahkan baris ini
 
 jobs:
   train-and-deploy:
