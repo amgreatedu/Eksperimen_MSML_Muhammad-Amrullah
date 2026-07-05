@@ -1,6 +1,6 @@
 name: CI Workflow MLflow & Docker
 
-    on:
+on:
   push:
     paths:
       - 'Workflow-CI/**'
